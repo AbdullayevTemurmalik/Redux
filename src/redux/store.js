@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { counterSlice } from "./counterSlice";
+import counterSlice from "./counterSlice";
 
 export const store = configureStore({
   reducer: {
-    laylo: { counterSlice },
+    laylo: counterSlice,
   },
 });
