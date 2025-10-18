@@ -7,9 +7,8 @@ function App() {
 
   return (
     <>
-      <Navbar count={count} />
-      <Banner onIncrease={() => setCount(count + 1)} />
-      <Banner onIncrease={() => setCount(count - 1)} />
+      <Navbar />
+      <Banner />
     </>
   );
 }
